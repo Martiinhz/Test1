@@ -2,7 +2,14 @@ name: Run tests
 on:
   push:
     branches:
+<<<<<<< HEAD
       - 'main'      
+=======
+      - 'main'
+  pull_request:
+    branches:
+      - 'main'
+>>>>>>> c5b91cf2080e53bf668efaaf0d8399fbddc81067
 jobs:
   tests:
     runs-on: ubuntu-latest
